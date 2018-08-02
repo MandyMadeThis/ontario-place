@@ -1,0 +1,41 @@
+# Ignore temp files on Linux
+*~
+
+# Ignore directory settings in KDE
+.directory
+
+# Ignore directory settings in OS X
+.DS_Store
+
+# Ignore thumbnails in OS X
+._*
+
+# Ignore files that might appear on external disks in OS X
+.Spotlight-V100
+.Trashes
+
+# Ignore directories that might appear on AFP shares in OS X
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+
+# Ignore caches
+.sass-cache/
+
+# Ignore NPM packages
+node_modules
+npm-debug.log
+
+# Ignore Ruby gems
+.bundle
+bundle
+
+# Ignore typography.com fonts
+assets/fonts/253058/
+
+# Ignore database and file backups
+/data
+
+# Ignore compiled files
+assets/dist
