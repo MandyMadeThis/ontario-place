@@ -1,41 +1,44 @@
-# Ignore temp files on Linux
-*~
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
 
-# Ignore directory settings in KDE
-.directory
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
 
-# Ignore directory settings in OS X
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+**/*.DS_Store
+**/*.DS_Store?
 .DS_Store
-
-# Ignore thumbnails in OS X
 ._*
+*.Spotlight-V100
+*.Trashes
+ehthumbs.db
+Thumbs.db
 
-# Ignore files that might appear on external disks in OS X
-.Spotlight-V100
-.Trashes
-
-# Ignore directories that might appear on AFP shares in OS X
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-
-# Ignore caches
-.sass-cache/
-
-# Ignore NPM packages
-node_modules
-npm-debug.log
-
-# Ignore Ruby gems
-.bundle
-bundle
-
-# Ignore typography.com fonts
-assets/fonts/253058/
-
-# Ignore database and file backups
-/data
-
-# Ignore compiled files
-assets/dist
+# Custom #
+######################
+*.sublime-project
+*.sublime-workspace
+*.sass-cache*
+/node_modules
