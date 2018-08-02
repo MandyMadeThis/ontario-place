@@ -8,7 +8,7 @@ var gulp = require('gulp'),
 
 gulp.task('browser-sync', function() {
     browserSync.init({
-        proxy: "http://ontario-place-development.test//"
+        proxy: "http://ontarioplace.test"
     });
 });
 
@@ -36,5 +36,5 @@ gulp.task('styles', function(){
 
 gulp.task('default', ['browser-sync'], function(){
   gulp.watch("src/scss/**/*.scss", ['styles']);
-  gulp.watch("*.php", ['bs-reload']);
+  gulp.watch("*/**/*.php", ['bs-reload']);
 });
